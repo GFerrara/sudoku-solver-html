@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Sudoku Solver (WASM)</title>
+  <title>Sudoku Solver</title>
   <style>
     table {
       border-collapse: collapse;
@@ -40,6 +40,17 @@
 </head>
 <body>
   <h1 style="text-align:center;">Sudoku Solver</h1>
+
+  <div style="max-width:600px; margin:1em auto; padding:0.5em; border:1px solid #ccc; border-radius:8px; background:#f9f9f9; font-size:0.9em;">
+    <h3>How to use this Sudoku solver</h3>
+    <ul>
+      <li>Click in a cell and type a number (1–9) to enter your puzzle. Leave cells empty for blanks.</li>
+      <li>When finished, press <b>Solve</b>. The solver will fill in the missing numbers.</li>
+      <li>After solving, the button changes to <b>Input</b> so you can start a new puzzle.</li>
+      <li>Use the browser refresh button at any time to reset everything.</li>
+    </ul>
+  </div>
+
 
   <table id="sudoku">
     <!-- 9×9 grid -->
